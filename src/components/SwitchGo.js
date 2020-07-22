@@ -6,11 +6,11 @@ const SwitchGo = ({ className, switch1, switch2, switch3 }) => {
       {console.log(switch1, switch2, switch3)}
       {(switch1 && switch2 && switch3) === false ? (
         <button style={{ backgroundColor: "red", color: "white" }}>
-          NO WAY
+          NOT READY
         </button>
       ) : (
         <button style={{ backgroundColor: "green", color: "white" }}>
-          GO !
+          LAUNCH
         </button>
       )}
     </div>

@@ -7,7 +7,7 @@ import Switches from "./components/Switches";
 function App() {
   return (
     <div>
-      <Header className="header" title="Ready to go ?" />
+      <Header className="header" title="Rocket Launch" />
       <div className="container">
         <Switches className="switches-global" />
       </div>

@@ -87,7 +87,8 @@ button {
 
 .switch-go button {
   border: 0;
-  width: 210px;
+  min-width: 261px;
+  box-sizing: border-box;
   padding: 25px 40px;
   font-size: 30px;
   border-radius: 10px;

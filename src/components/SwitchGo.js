@@ -10,7 +10,7 @@ const SwitchGo = ({ className, switch1, switch2, switch3 }) => {
         </button>
       ) : (
         <button style={{ backgroundColor: "green", color: "white" }}>
-          LAUNCH
+          LAUNCH !
         </button>
       )}
     </div>

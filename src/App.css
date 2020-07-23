@@ -70,8 +70,6 @@ button {
 }
 
 .switches-left button {
-  color: var(--purple-);
-  background-color: var(--grey-0-);
   font-size: 24px;
   padding: 15px 30px;
   margin: 20px;
@@ -85,18 +83,37 @@ button {
   align-items: center;
 }
 
-.switch-go button {
-  border: 0;
+.on {
+  background-color: var(--purple-);
+  color: white;
+}
+
+.off {
+  background-color: var(--grey-0-);
+  color: var(--purple-);
+}
+
+.switches-right {
   min-width: 261px;
   box-sizing: border-box;
   padding: 25px 40px;
   font-size: 30px;
   border-radius: 10px;
-  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+.go {
+  background-color: green;
+}
+
+.not-ready {
+  background-color: red;
 }
 
 .reset-button button {
   background-color: white;
+  color: var(--purple-);
   border: 0;
   text-decoration: underline;
   padding: 0;
@@ -126,7 +143,7 @@ button {
     margin: 15px;
   }
 
-  .switch-go button {
+  .switches-right {
     padding: 20px 40px;
     font-size: 24px;
   }
@@ -182,7 +199,7 @@ button {
     margin: 20px;
   }
 
-  .switch-go button {
+  .switches-right {
     padding: 25px 40px;
     font-size: 30px;
   }
